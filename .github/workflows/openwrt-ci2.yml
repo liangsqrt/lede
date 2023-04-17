@@ -35,6 +35,9 @@ jobs:
         with:
           ref: master
 
+      - name: Update
+        run: apt-get update
+
       - name: Space cleanup
         env:
           DEBIAN_FRONTEND: noninteractive
