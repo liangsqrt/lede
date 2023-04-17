@@ -36,7 +36,7 @@ jobs:
           ref: master
 
       - name: Update
-        run: apt-get update
+        run: sudo apt-get update
 
       - name: Space cleanup
         env:
