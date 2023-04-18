@@ -69,7 +69,6 @@ jobs:
           sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
           sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
           sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-          sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
           sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
           sed -i '$a src-git nas https://github.com/linkease/nas-packages.git' feeds.conf.default
           sed -i '$a src-git jerrykuku https://github.com/jerrykuku/openwrt-package' feeds.conf.default
