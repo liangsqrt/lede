@@ -77,7 +77,7 @@ jobs:
 
       - name: Generate configuration file
         run: |
-          cp default_config .config
+          cp config_default .config
           make deconfig
 
       - name: Download packages
