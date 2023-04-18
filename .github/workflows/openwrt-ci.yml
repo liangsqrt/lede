@@ -57,7 +57,9 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: cp config_default .config
+        run: |
+          make defconfig
+          cp config_default .config
 
       - name: Download packages
         run: make download -j16
